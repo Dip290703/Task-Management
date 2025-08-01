@@ -1,6 +1,6 @@
 # 🗂️ Task Management App
 
-A sleek and responsive task management tool built using **React** and **Tailwind CSS**, inspired by productivity tools like Trello and Notion. This project allows users to create boards, columns, and tasks with subtasks, helping organize workflows efficiently.
+A sleek and responsive task management tool built using **React** and **Tailwind CSS**. This project allows users to create boards, columns, and tasks with subtasks, helping organize workflows efficiently.
 
 > 🚀 This is currently a front-end only application. In future updates, the app will support real-time data storage and user authentication using Supabase or Appwrite.
 
