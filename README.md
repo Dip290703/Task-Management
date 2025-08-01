@@ -1,12 +1,54 @@
-# React + Vite
+# 🗂️ Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive task management tool built using **React** and **Tailwind CSS**, inspired by productivity tools like Trello and Notion. This project allows users to create boards, columns, and tasks with subtasks, helping organize workflows efficiently.
 
-Currently, two official plugins are available:
+> 🚀 This is currently a front-end only application. In future updates, the app will support real-time data storage and user authentication using Supabase or Appwrite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Board View | Task Modal |
+|------------|------------|
+| ![Board Screenshot](./screenshots/boardmodal.png) | ![Task Modal](./screenshots/taskmodal.png) |
+
+---
+
+## 🔧 Tech Stack
+
+- ⚛️ React
+- 💨 Tailwind CSS
+- 🧠 Redux Toolkit
+- 🔀 UUID for unique IDs
+- ☁️ Supabase *(coming soon)*
+- 🔐 Auth *(coming soon)*
+
+---
+
+## ✅ Features
+
+- 📋 Create multiple boards with columns and tasks
+- 📝 Add, edit, and delete tasks and subtasks
+- 🎯 Drag and drop tasks across columns
+- 🌙 Light/Dark mode toggle
+- 🔄 Persistent state with Redux (currently in-memory)
+
+---
+
+## 🚧 Upcoming Features
+
+- 💾 Backend integration with Supabase or Appwrite
+- 👤 User authentication (sign up, login)
+- ☁️ Real-time data storage and retrieval
+- 📲 Mobile responsiveness improvements
+- 🧪 Unit and integration tests with Testing Library
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Dip290703/Task-Management.git
+cd Task-Management
